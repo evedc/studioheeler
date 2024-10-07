@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #8511b4;
+    width: 100vw;
+    height: 80px;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    width: 10%;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.links-container a {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+.links-container a:hover {
+    background-color: #00ff66;
+    color: black;
+    transition: 1s ease;
+    border-radius: 10px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-right: 3%;
+}
+
+.btn-contato {
+    background-color: #00ff66;
+    font-size: 1rem;
+    color: #000;
+    border: none;
+    width: 100vw;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn-contato:hover {
+    opacity: .8;
+    font-size: 1.1rem;
+    transition: 1s ease;
+    cursor: pointer;
+}
