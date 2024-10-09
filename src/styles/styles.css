@@ -71,6 +71,8 @@ nav {
 header {
     display: flex;
     align-items: center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
     justify-content: center;
     height: 100vh;
     width: 100vw;
@@ -79,16 +81,29 @@ header {
 .inicio-container {
     display: flex;
     flex-direction: row;
-}
-
-.imagem-box {
-    display: flex;
-    width: 50%;
-    border: 1px solid red;
+    justify-content: center;
 }
 
 .titulo-box {
     display: flex;
+    color: #fff;
+    flex-direction: column;
+    text-align: end;
     width: 50%;
-    border: 1px solid red;
+
+}
+
+.titulo-box h1 {
+    font-size: 4rem;
+    gap: 0;
+    color: #00ff66;
+    background-image: linear-gradient(45deg, #00ff66 0%, #8511b4 56%, #00ff66 97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.titulo-box p {
+    font-size: 1.5rem;
 }
