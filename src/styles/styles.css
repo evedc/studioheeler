@@ -71,8 +71,10 @@ nav {
 header {
     display: flex;
     align-items: center;
+    /*
     background-image: url(../images/bg.jpg);
     background-size: cover;
+    */
     justify-content: center;
     height: 100vh;
     width: 100vw;
@@ -86,7 +88,6 @@ header {
 
 .titulo-box {
     display: flex;
-    color: #fff;
     flex-direction: column;
     text-align: end;
     width: 50%;
