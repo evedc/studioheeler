@@ -122,10 +122,22 @@ header {
     justify-content: center;
 }
 
+.titulo {
+    display: flex;
+    width: 60%;
+    justify-content: left;
+}
+
+.titulo h2 {
+    border-bottom: 1px solid #8511b4;
+    width: 40%;
+}
+
+
+
 .servicos-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 200px);
     gap: 10px;
     padding: 20px;
     width: 60%;
@@ -133,5 +145,14 @@ header {
 }
 
 .servico-box {
-    border: 1px solid blue;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.servico-box img {
+    max-width: 50px;
 }
