@@ -135,25 +135,44 @@ header {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin-top: 20px;
     align-items: center;
     justify-content: center;
+    background: rgb(133, 17, 180);
+    background: linear-gradient(270deg, rgba(133, 17, 180, 1) 0%, rgba(0, 255, 102, 1) 100%);
+}
+
+.sobre-container h2 {
+    margin-top: 20px;
 }
 
 .container-sobre {
     display: flex;
     width: 60%;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .imagem-box {
+    display: flex;
+    justify-content: center;
     width: 50%;
-    border: 1px solid red;
+}
+
+.imagem-box img {
+    width: 80%;
+    border: 5px solid #8414b4;
+    border-radius: 10%;
+    overflow: hidden;
 }
 
 .texto-box {
     width: 50%;
-    border: 1px solid blue;
+}
+
+.texto-box p {
+    margin: 20px 20px;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .servicos {
