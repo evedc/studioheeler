@@ -184,3 +184,12 @@ header {
 .servico-box h3 {
     margin-top: 10px;
 }
+
+.servico-box p {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+}
