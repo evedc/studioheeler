@@ -18,6 +18,22 @@ nav {
     border-bottom: 3px solid #00ff66;
 }
 
+/*barra de rolagem*/
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8414b4;
+}
+
+
 .imagem-container {
     display: flex;
     justify-content: center;
@@ -67,6 +83,7 @@ nav {
     font-size: 1.1rem;
     transition: 1s ease;
     cursor: pointer;
+
 }
 
 header {
@@ -142,6 +159,7 @@ header {
     padding: 20px;
     width: 60%;
     margin-top: 2%;
+
 }
 
 .servico-box {
@@ -150,6 +168,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+    box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.27);
+}
 
+.servico-box:hover {
+    cursor: pointer;
+}
+
+.servico-box img {
+    margin-top: 20px;
+}
+
+.servico-box h3 {
+    margin-top: 10px;
 }
