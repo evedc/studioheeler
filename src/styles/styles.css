@@ -167,12 +167,16 @@ header {
 
 .texto-box {
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .texto-box p {
-    margin: 20px 20px;
+    margin: auto;
     font-size: 1.2rem;
     color: white;
+    text-align: center;
+    margin: auto;
 }
 
 .servicos {
@@ -190,6 +194,18 @@ header {
     display: flex;
     width: 60%;
     justify-content: left;
+}
+
+.titulo-sobre h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #ffffff 42%, #ffffff 70%, #562B63 97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    border-bottom: 2px solid #00ff66;
 }
 
 .titulo h2 {
