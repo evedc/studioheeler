@@ -137,6 +137,7 @@ header {
     margin-top: 2%;
     height: 100%;
     justify-content: center;
+
 }
 
 .titulo {
@@ -148,6 +149,7 @@ header {
 .titulo h2 {
     border-bottom: 1px solid #8511b4;
     width: 90%;
+    font-size: 2rem;
 }
 
 
@@ -159,7 +161,6 @@ header {
     padding: 20px;
     width: 60%;
     margin-top: 2%;
-
 }
 
 .servico-box {
