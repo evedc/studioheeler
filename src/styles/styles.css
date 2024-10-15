@@ -137,8 +137,9 @@ header {
     height: 100%;
     align-items: center;
     justify-content: center;
+    /*
     background: rgb(133, 17, 180);
-    background: linear-gradient(270deg, rgba(133, 17, 180, 1) 0%, rgba(0, 255, 102, 1) 100%);
+    background: linear-gradient(270deg, rgba(133, 17, 180, 1) 0%, rgba(0, 255, 102, 1) 100%);*/
 }
 
 .sobre-container h2 {
@@ -160,7 +161,7 @@ header {
 
 .imagem-box img {
     width: 80%;
-    border: 5px solid #8414b4;
+    border: 2px solid #8414b4;
     border-radius: 10%;
     overflow: hidden;
 }
@@ -169,12 +170,13 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
+    color: #000000;
 }
 
 .texto-box p {
     margin: auto;
     font-size: 1.2rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: auto;
 }
@@ -198,13 +200,7 @@ header {
 
 .titulo-sobre h3 {
     font-size: 2rem;
-    color: #ffffff;
-    background-image: linear-gradient(45deg, #ffffff 42%, #ffffff 70%, #562B63 97%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-
+    color: #000000;
     border-bottom: 2px solid #00ff66;
 }
 
